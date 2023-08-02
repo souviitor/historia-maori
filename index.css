@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+button,
+ul{
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #FAF9F6;
+}
+
+body,
+p, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #171717;
+    color: #fff;
+}
+
+header nav li {
+    display: inline;
+    margin: 16px;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container,
+.maori {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .ilustration {
+    display: flex;
+    align-items: center;
+    margin: 16px;
+}
+
+section img {
+    display: flex;
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+p {
+    align-items: center;
+    margin: 14px;
+    line-height: 1.4;
+}
+
+.social-links img{
+    height: 24px;
+    width: 24px;
+    margin: 8px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: 8px;
+}
+
+#contact .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.contact-methods {
+    display: block;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-left: 12px;
+}
+
+form button{
+    background-color: #171717;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+    outline-color: #000000;
+}
+
+form button:hover {
+    background-color: rgb(99, 99, 99);
+}
+
+textarea {
+    resize: none;
+    height: 180px;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 6px;
+}
+
+footer {
+    background-color: #171717;
+    color: #ecf0f1;
+    padding: 10px 0;
+}
